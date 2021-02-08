@@ -74,6 +74,7 @@
     padding: 10px 17px;
     color: #5F6368;
     background-color: #f2f2f2;
+    border: 1px solid transparent;
     border-radius: 4px;
 }
 
@@ -82,5 +83,4 @@
     background-color: #f8f8f8;
     border: 1px solid #c6c6c6;
     color: #222;
-    transform: translate(-1px, -1px);
 }
