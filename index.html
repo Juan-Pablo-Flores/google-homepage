@@ -4,21 +4,23 @@
 <head>
     <title>Google</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/777d0e33d9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 
 <body>
-    <nav class="main-nav">
-        <ul class="main-nav__left">
-            <li class="light-text">About</li>
-            <li class="light-text">Store</li>
+    <nav class="nav">
+        <ul class="nav__left">
+            <li class="nav__link light-text">About</li>
+            <li class="nav__link light-text">Store</li>
         </ul>
-        <ul class="main-nav__right">
-            <li class="dark-text">Gmail</li>
-            <li class="dark-text">Images</li>
-            <li class="grid-menu"></li>
-            <li class="button blue-button white-text">Sign in</li>
+        <ul class="nav__right">
+            <li class="nav__link">Gmail</li>
+            <li class="nav__link">Images</li>
+            <li class="grid-menu"><span class="material-icons">apps</span></li>
+            <li class="blue-button white-text">Sign in</li>
         </ul>
     </nav>
 
@@ -28,7 +30,7 @@
                 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
             </div>
             <div class="search-bar">
-                <i class="fas fa-search"></i>
+                <span class="material-icons search">search</span>
                 <input type="text" name="search-input" id="search-input">
                 <span id="search-by-voice"></span>
             </div>
@@ -39,19 +41,19 @@
         </div>
     </main>
 
-    <nav class="bottom-nav">
-        <ul class="bottom-nav__left">
-            <a href="#" class="bottom-nav__link">Advertising</a>
-            <a href="#" class="bottom-nav__link">Business</a>
-            <a href="#" class="bottom-nav__link">How Search works</a>
+    <footer class="footer">
+        <ul class="footer__left">
+            <a href="#" class="footer__link">Advertising</a>
+            <a href="#" class="footer__link">Business</a>
+            <a href="#" class="footer__link">How Search works</a>
         </ul>
 
-        <ul class="bottom-nav__right">
-            <a href="#" class="bottom-nav__link">Privacy</a>
-            <a href="#" class="bottom-nav__link">Terms</a>
-            <a href="#" class="bottom-nav__link">Settings</a>
+        <ul class="footer__right">
+            <a href="#" class="footer__link">Privacy</a>
+            <a href="#" class="footer__link">Terms</a>
+            <a href="#" class="footer__link">Settings</a>
         </ul>
-    </nav>
+    </footer>
 </body>
 
 </html>
