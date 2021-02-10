@@ -48,12 +48,22 @@ li {
     align-self: center;
 }
 
+.grid-menu:hover {
+    opacity: 1;
+}
+
 .blue-button {
     background-color: #4387fd;
     text-decoration: none;
     font-size: 13px;
     padding: 7px 12px;
     border-radius: 2px;
+}
+
+.nav__link:hover,
+.grid-menu:hover,
+.blue-button:hover {
+    cursor: pointer;
 }
 
 .main-content{
